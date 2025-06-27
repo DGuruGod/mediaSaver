@@ -1,0 +1,20 @@
+#:kivy 2.1.0
+
+<MDCard>:
+    radius: [10,]
+
+<MDTextField>:
+    elevation: 6
+    pos_hint: {"center_x": .5}
+
+<MDBoxLayout>:
+    spacing: 12
+
+MDTabs:
+    tab_bar_height: "58dp"
+    background_color: app.theme_cls.primary_color
+
+MDTabsBar:
+    text_color_normal: 0.8, 0.8, 0.8, 1
+    text_color_active: 1, 0.84, 0, 1
+
