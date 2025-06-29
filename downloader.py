@@ -42,6 +42,7 @@ def download_from_ytdlp(url, on_progress=None):
         def warning(self, msg): pass
         def error(self, msg): print(f"[YTDLP ERROR]: {msg}")
         
+
         # ✅ Prevent 'str' object has no attribute 'write'
         def write(self, msg):
             print(f"[YTDLP] {msg.strip()}")
