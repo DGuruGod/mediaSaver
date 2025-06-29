@@ -237,6 +237,7 @@ class PlatformTab(MDBoxLayout, MDTabsBase):
         self.history_container.add_widget(card)
 
 
+
 class StealthApp(MDApp):
     def build(self):
         self.theme_cls.theme_style = "Dark"
