@@ -12,7 +12,6 @@ from kivymd.uix.textfield import MDTextField
 from kivymd.uix.label import MDLabel
 from kivy.uix.image import AsyncImage
 from kivy.uix.scrollview import ScrollView
-
 from utils import detect_platform
 from media_parser import parse_yt_dlp_metadata, parse_whatsapp_status_media
 from downloader import download_file
