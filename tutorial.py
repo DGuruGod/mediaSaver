@@ -30,5 +30,6 @@ def show_tutorial(app):
     dialog.open()
     mark_tutorial_as_seen()
 
+
 def dismiss_dialog(dialog):
     dialog.dismiss()
