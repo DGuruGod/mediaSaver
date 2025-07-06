@@ -57,6 +57,7 @@ def download_from_ytdlp(url, on_progress=None):
                 percent = (downloaded * 100 / total)
                 on_progress(percent)
 
+    
     ydl_opts = {
         'outtmpl': os.path.join(DOWNLOAD_DIR, '%(title)s.%(ext)s'),
         'quiet': True,
