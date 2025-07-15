@@ -18,7 +18,7 @@ from downloader import download_file
 from history import load_history, save_history_entry
 from progressbar import AnimatedProgressBar
 
-PLATFORMS = ['instagram', 'youtube', 'x', 'tiktok', 'whatsapp']
+PLATFORMS = ['instagram', 'youtube', 'x', 'tiktok']
 CLIP_POLL_SECS = 2
 
 
